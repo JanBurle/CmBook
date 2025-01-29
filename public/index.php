@@ -1,8 +1,10 @@
 <?
 // config
 $conf = [
-  'dev'   => true,    // development mode
-  'pages' => 'pages/' // pages directory
+  'dev'   => true,      // development mode
+  'pages' => 'pages/',  // pages directory
+  // TODO header => false
+  // 'footer' => true,  // show footer
 ];
 
 // route
