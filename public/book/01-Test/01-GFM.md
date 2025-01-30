@@ -1,4 +1,10 @@
-<!-- # Markdown Test Content
+# Markdown Test Content
+
+### Footnotes
+
+This is a footnote reference.[^1]
+
+[^1]: This is the footnote.
 
 ## Basic Syntax
 
@@ -70,7 +76,6 @@ _Italic_ **Bold** **_Bold Italic_**
 
 ### Code
 
-
 Inline `code`
 
 ```python
@@ -95,10 +100,3 @@ print("Hello, World!")
 | -------- | -------- |
 | Cell 1   | Cell 2   |
 | Cell 3   | Cell 4   |
- -->
-
-### Footnotes
-
-This is a footnote reference.[^1]
-
-[^1]: This is the footnote.
