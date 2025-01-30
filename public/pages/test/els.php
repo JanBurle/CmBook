@@ -10,7 +10,7 @@ $p = new class extends Page {
 <hr>
 
 <script>
-  window.$reVars['tr'] = new ReVar(1)
+  SLG.reVars['tr'] = new ReVar(1)
 </script>
 <f-row>
   <f-col>
