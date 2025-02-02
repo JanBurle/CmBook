@@ -1,6 +1,6 @@
 services:
-  webserver:
-    container_name: cmbook
+  vm:
+    container_name: cmbook-vm
     build:
       dockerfile: tools/Dockerfile
     ports:
