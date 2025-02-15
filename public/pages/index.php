@@ -1,3 +1,2 @@
 <?
-$p = new class('Book', 'book/', $path) extends MdBook {
-};
+$p = new class('Book', 'book', $path) extends MdBook {};
