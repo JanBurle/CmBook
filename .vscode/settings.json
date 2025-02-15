@@ -1,5 +1,10 @@
 {
   "files.exclude": {
-    ".vscode/": false
+    ".vscode/": true,
+    "docker-*": true,
+    "tsconfig.json": true,
+    "LICENSE": true,
+    "pnpm-*": true,
+    ".??*": true
   }
 }
