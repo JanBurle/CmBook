@@ -1,1 +1,1 @@
-class _ extends ShadowElem{constructor(){super(),this.set("span",this.textContent),this.qSel("svg").fetchIcon(this.attr("icon"))}}
+class _ extends ShadowElem{constructor(){super(),this.setHtml("span",this.textContent),this.qSel("svg").fetchIcon(this.attr("icon"))}init(){this.setAttr("tabindex","0"),this.onkeydown=t=>{"Enter"!==t.code&&"Space"!==t.code||this.click()}}}

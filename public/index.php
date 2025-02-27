@@ -3,6 +3,8 @@
 $conf = [
   'dev'   => true,      // development mode
   'pages' => 'pages/',  // pages directory
+  'theme' => 'dark',   // css
+  'header' => false,    // show footer
   // 'footer' => true,  // show footer
 ];
 
